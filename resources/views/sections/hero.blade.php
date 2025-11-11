@@ -38,10 +38,10 @@
             </div>
             <div class="col-lg-6">
                 <div class="hero-img"><img class="img-card img-fluid"
-                        src="{{ asset('images/business/business-img-2-min.jpg') }}" alt="Indonesian Export Business"
+                        src="{{ asset('images/semakmur/foto content/gambar-2.jpg') }}" alt="Indonesian Export Business"
                         data-aos="fade-down" data-aos-delay="600"><img class="img-main img-fluid rounded-4"
-                        src="{{ asset('images/business/business-img-1-min.jpg') }}" alt="Marketplace Ekspor Indonesia"
-                        data-aos="fade-in" data-aos-delay="500"></div>
+                        src="{{ asset('images/semakmur/foto content/gambar-1.jpeg') }}"
+                        alt="Marketplace Ekspor Indonesia" data-aos="fade-in" data-aos-delay="500"></div>
             </div>
         </div>
     </div>

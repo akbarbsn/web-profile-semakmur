@@ -76,8 +76,8 @@
 
             <div class="col-md-6 order-md-1">
                 <div class="img-wrap position-relative">
-                    <img class="img-fluid rounded-4" src="{{ asset('images/hero-img-1-min.jpg') }}" alt="Export Process"
-                        data-aos="fade-up" data-aos-delay="0">
+                    <img class="img-fluid rounded-4" src="{{ asset('images/semakmur/foto content/gambar-1.jpeg') }}"
+                        alt="Export Process" data-aos="fade-up" data-aos-delay="0">
 
                     <!-- Partner Stats Overlay -->
                     <div class="stats-overlay p-4 rounded-4" data-aos="fade-up" data-aos-delay="200">

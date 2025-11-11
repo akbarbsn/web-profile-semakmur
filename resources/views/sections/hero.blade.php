@@ -21,7 +21,7 @@
                                     <path d="M7 7h10v10"></path>
                                     <path d="M7 17 17 7"></path>
                                 </svg></a></div>
-                        <div class="logos mb-4" data-aos="fade-up" data-aos-delay="400"><span
+                        {{-- <div class="logos mb-4" data-aos="fade-up" data-aos-delay="400"><span
                                 class="logos-title text-uppercase mb-4 d-block">Dipercaya oleh perusahaan ekspor
                                 terkemuka</span>
                             <div class="logos-images d-flex gap-4 align-items-center"><img
@@ -32,15 +32,16 @@
                                     style="width: 80px;"><img class="img-fluid js-img-to-inline-svg"
                                     src="{{ asset('images/logo/actual-size/logo-google__black.svg') }}" alt="Company 3"
                                     style="width: 110px;"></div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="hero-img"><img class="img-card img-fluid" src="{{ asset('images/card-expenses.png') }}"
-                        alt="Image card" data-aos="fade-down" data-aos-delay="600"><img
-                        class="img-main img-fluid rounded-4" src="{{ asset('images/hero-img-1-min.jpg') }}"
-                        alt="Hero Image" data-aos="fade-in" data-aos-delay="500"></div>
+                <div class="hero-img"><img class="img-card img-fluid"
+                        src="{{ asset('images/business/business-img-2-min.jpg') }}" alt="Indonesian Export Business"
+                        data-aos="fade-down" data-aos-delay="600"><img class="img-main img-fluid rounded-4"
+                        src="{{ asset('images/business/business-img-1-min.jpg') }}" alt="Marketplace Ekspor Indonesia"
+                        data-aos="fade-in" data-aos-delay="500"></div>
             </div>
         </div>
     </div>

@@ -14,8 +14,13 @@
                 <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative"
                     data-aos="fade-up" data-aos-delay="0">
                     <div data-aos="fade-right" data-aos-delay="500"><img class="arch-line"
-                            src="{{ asset('images/arch-line.svg') }}" alt="Step connector"></div><span
-                        class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">1</span>
+                            src="{{ asset('images/arch-line.svg') }}" alt="Step connector"></div>
+                    <!-- Maskot Step 1 -->
+                    <div class="maskot-step mb-3" data-aos="zoom-in" data-aos-delay="600">
+                        <img src="{{ asset('images/semakmur/foto sima/pose-admin.png') }}" alt="Register Step"
+                            style="width: 60px; height: auto;">
+                    </div>
+                    <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">1</span>
                     <div>
                         <h3 class="fs-5 mb-4">Daftar & Verifikasi</h3>
                         <p>Daftarkan bisnis Anda di platform Semakmur dan dapatkan verifikasi untuk akses penuh ke fitur
@@ -27,8 +32,13 @@
                 <div
                     class="step-card reverse text-center h-100 d-flex flex-column justify-content-start position-relative">
                     <div data-aos="fade-right" data-aos-delay="1100"><img class="arch-line reverse"
-                            src="{{ asset('images/arch-line-reverse.svg') }}" alt="Step connector"></div><span
-                        class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">2</span>
+                            src="{{ asset('images/arch-line-reverse.svg') }}" alt="Step connector"></div>
+                    <!-- Maskot Step 2 -->
+                    <div class="maskot-step mb-3" data-aos="zoom-in" data-aos-delay="1200">
+                        <img src="{{ asset('images/semakmur/foto sima/pose-6.png') }}" alt="Upload Products Step"
+                            style="width: 60px; height: auto;">
+                    </div>
+                    <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">2</span>
                     <h3 class="fs-5 mb-4">Upload Produk Unggulan</h3>
                     <p>Tambahkan produk terbaik Anda dengan foto berkualitas tinggi dan deskripsi lengkap untuk menarik
                         pembeli global.</p>
@@ -37,8 +47,13 @@
             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1200">
                 <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative">
                     <div data-aos="fade-right" data-aos-delay="1700"><img class="arch-line"
-                            src="{{ asset('images/arch-line.svg') }}" alt="Step connector"></div><span
-                        class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">3</span>
+                            src="{{ asset('images/arch-line.svg') }}" alt="Step connector"></div>
+                    <!-- Maskot Step 3 -->
+                    <div class="maskot-step mb-3" data-aos="zoom-in" data-aos-delay="1800">
+                        <img src="{{ asset('images/semakmur/foto sima/sima-customer-service.png') }}"
+                            alt="Expert Guidance Step" style="width: 60px; height: auto;">
+                    </div>
+                    <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">3</span>
                     <h3 class="fs-5 mb-4">Dapatkan Pendampingan Ekspor</h3>
                     <p>Tim ahli GPEI akan membantu Anda mempersiapkan dokumen ekspor, sertifikasi, dan strategi
                         pemasaran internasional.</p>
@@ -47,6 +62,11 @@
             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1800">
                 <div
                     class="step-card last text-center h-100 d-flex flex-column justify-content-start position-relative">
+                    <!-- Maskot Step 4 -->
+                    <div class="maskot-step mb-3" data-aos="zoom-in" data-aos-delay="2400">
+                        <img src="{{ asset('images/semakmur/foto sima/pose-2.png') }}" alt="Global Sales Step"
+                            style="width: 60px; height: auto;">
+                    </div>
                     <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">4</span>
                     <div>
                         <h3 class="fs-5 mb-4">Jual ke Pasar Global</h3>

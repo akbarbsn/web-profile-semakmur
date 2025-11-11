@@ -7,6 +7,13 @@
                 <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Pertanyaan yang Sering Diajukan</h2>
                 <p data-aos="fade-up" data-aos-delay="100">Temukan jawaban atas pertanyaan umum tentang layanan ekspor
                     Semakmur dan bagaimana kami membantu UMKM Indonesia menembus pasar global.</p>
+
+                <!-- Maskot Customer Service -->
+                <div class="maskot-faq mt-4" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="{{ asset('images/semakmur/foto sima/pose-13.png') }}" alt="Sima Customer Service"
+                        style="width: 100px; height: auto; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));">
+                    <p class="mt-2 text-muted small">Sima siap membantu kamu!</p>
+                </div>
             </div>
         </div>
         <div class="row">

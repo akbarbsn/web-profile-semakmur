@@ -31,26 +31,36 @@
                                 <div class="col-lg-11">
                                     <div class="row">
                                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="0">
-                                            <div class="icon text-center mb-4"><i class="bi bi-globe fs-4"></i>
+                                            <div class="icon text-center mb-4">
+                                                <img src="{{ asset('images/semakmur/foto sima/pose-3.png') }}"
+                                                    alt="Global Access" style="width: 80px; height: auto;">
                                             </div>
                                             <h3 class="fs-6 fw-bold mb-3">Akses Pasar Global</h3>
                                             <p>Menghubungkan produk UMKM Indonesia dengan pembeli internasional di
                                                 seluruh dunia.</p>
                                         </div>
                                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="icon text-center mb-4"><i class="bi bi-award fs-4"></i></div>
+                                            <div class="icon text-center mb-4">
+                                                <img src="{{ asset('images/semakmur/foto sima/pose-5.png') }}"
+                                                    alt="Quality Standards" style="width: 80px; height: auto;">
+                                            </div>
                                             <h3 class="fs-6 fw-bold mb-3">Standar Kualitas Internasional</h3>
                                             <p>Pendampingan produk agar memenuhi standar ekspor dan sertifikasi
                                                 internasional.</p>
                                         </div>
                                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="200">
-                                            <div class="icon text-center mb-4"><i class="bi bi-truck fs-4"></i></div>
+                                            <div class="icon text-center mb-4">
+                                                <img src="{{ asset('images/semakmur/foto sima/pose-7.png') }}"
+                                                    alt="Integrated Logistics" style="width: 80px; height: auto;">
+                                            </div>
                                             <h3 class="fs-6 fw-bold mb-3">Solusi Logistik Terintegrasi</h3>
                                             <p>Mitra logistik terpercaya untuk pengiriman produk ke seluruh dunia dengan
                                                 aman.</p>
                                         </div>
                                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
-                                            <div class="icon text-center mb-4"><i class="bi bi-people fs-4"></i>
+                                            <div class="icon text-center mb-4">
+                                                <img src="{{ asset('images/semakmur/foto sima/sima-customer-service.png') }}"
+                                                    alt="GPEI Expert Support" style="width: 80px; height: auto;">
                                             </div>
                                             <h3 class="fs-6 fw-bold mb-3">Dukungan Ahli GPEI</h3>
                                             <p>Didukung oleh DPP GPEI yang berpengalaman 60+ tahun dalam perdagangan

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  
-  
+
+
 
   const sections = document.querySelectorAll(".section");
   const navLinks = document.querySelectorAll(".fbs__net-navbar .scroll-link");
@@ -110,7 +110,7 @@ const navbarInit = () => {
 const logoMarqueeInit = () => {
   const wrapper = document.querySelector(".logo-wrapper");
   const boxes = gsap.utils.toArray(".logo-item");
-  
+
   if (boxes.length > 0) {
     const loop = horizontalLoop(boxes, {
       paused: false,
@@ -118,7 +118,7 @@ const logoMarqueeInit = () => {
       speed: 0.25,
       reversed: false,
     });
-    
+
     function horizontalLoop(items, config) {
       items = gsap.utils.toArray(items);
       config = config || {};
@@ -504,14 +504,14 @@ const countdownInit = () => {
   const x = setInterval(function () {
 
     const now = new Date().getTime();
-      
+
     const distance = launchDate - now;
-      
+
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-      
+
     // Output the result in an element with id
     const daysEl = document.getElementById("days");
     const hoursEl = document.getElementById("hours");
@@ -529,7 +529,7 @@ const countdownInit = () => {
     if (secondsEl) {
       secondsEl.innerText = seconds;
     }
-      
+
     // If the count down is finished, write some text
     if (distance < 0) {
       clearInterval(x);

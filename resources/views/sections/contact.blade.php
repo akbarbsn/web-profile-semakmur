@@ -7,6 +7,12 @@
                 <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Hubungi Kami</h2>
                 <p data-aos="fade-up" data-aos-delay="100">Siap membantu UMKM Indonesia mengembangkan bisnis ekspor.
                     Hubungi tim Semakmur untuk konsultasi dan informasi lebih lanjut.</p>
+
+                <!-- Maskot Contact -->
+                <div class="maskot-contact mt-4" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="{{ asset('images/semakmur/foto sima/sima-customer-service.png') }}" alt="Sima Contact"
+                        style="width: 80px; height: auto; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));">
+                </div>
             </div>
         </div>
         <div class="row">

@@ -66,9 +66,16 @@ License: https://freebootstrap.net/license
 
     </div>
 
-    <!-- ======= Back to Top =======-->
-    <button id="back-to-top"><i class="bi bi-arrow-up-short"></i></button>
-    <!-- End Back to top-->
+    <!-- ======= Customer Service Floating =======-->
+    <a href="https://wa.me/6282250006766" target="_blank" id="cs-floating" class="cs-floating">
+        <img src="{{ asset('images/semakmur/foto sima/sima-customer-service.png') }}" alt="Customer Service"
+            class="cs-img">
+        <div class="cs-content">
+            <div class="cs-text" id="cs-text">Butuh Bantuan?</div>
+            <div class="cs-subtitle">Chat dengan kami</div>
+        </div>
+    </a>
+    <!-- End Customer Service Floating-->
 
     <!-- ======= Javascripts =======-->
     <script src="{{ asset('vendors/bootstrap/bootstrap.bundle.min.js') }}"></script>

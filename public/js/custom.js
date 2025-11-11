@@ -325,27 +325,80 @@ const bsOffCanvasInit = () => {
 };
 document.addEventListener("DOMContentLoaded", bsOffCanvasInit);
 
-// ======= Back To Top =======
-const backToTopInit = () => {
-  const backToTopButton = document.getElementById("back-to-top");
-  if (backToTopButton) {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 170) {
-        backToTopButton.classList.add("show");
-      } else {
-        backToTopButton.classList.remove("show");
-      }
-    });
-    backToTopButton.addEventListener("click", () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    });
-  }
-};
+// ======= Customer Service Floating =======
+document.addEventListener("DOMContentLoaded", () => {
+  // Teks interaktif yang berganti-ganti
+  const messages = [
+    "Butuh Bantuan?",
+    "Ada Pertanyaan?",
+    "Chat Sekarang!",
+    "Konsultasi Gratis",
+    "Hubungi Kami",
+    "Siap Membantu!"
+  ];
 
-document.addEventListener("DOMContentLoaded", backToTopInit);
+  const csText = document.getElementById("cs-text");
+  let currentMessageIndex = 0;
+  let isAnimating = false;
+
+  if (csText) {
+    // Fungsi untuk animasi typing
+    function typeMessage(message) {
+      isAnimating = true;
+      csText.textContent = ''; // Kosongkan teks dulu
+      let i = 0;
+      const typingSpeed = 80; // kecepatan typing dalam ms
+
+      const typeChar = () => {
+        if (i < message.length) {
+          csText.textContent += message.charAt(i);
+          i++;
+          setTimeout(typeChar, typingSpeed);
+        } else {
+          isAnimating = false;
+          // Tunggu 3 detik sebelum mulai menghapus
+          setTimeout(() => {
+            if (!isAnimating) {
+              eraseMessage(() => {
+                currentMessageIndex = (currentMessageIndex + 1) % messages.length;
+                typeMessage(messages[currentMessageIndex]);
+              });
+            }
+          }, 3000);
+        }
+      };
+
+      typeChar();
+    }
+
+    // Fungsi untuk animasi menghapus teks (backspace)
+    function eraseMessage(callback) {
+      isAnimating = true;
+      const currentText = csText.textContent;
+      let i = currentText.length;
+      const eraseSpeed = 50; // kecepatan menghapus lebih cepat dari typing
+
+      const eraseChar = () => {
+        if (i > 0) {
+          csText.textContent = currentText.substring(0, i - 1);
+          i--;
+          setTimeout(eraseChar, eraseSpeed);
+        } else {
+          isAnimating = false;
+          // Pause sebentar sebelum mulai mengetik pesan baru
+          setTimeout(callback, 200);
+        }
+      };
+
+      eraseChar();
+    }
+
+    // Mulai dengan pesan pertama
+    typeMessage(messages[currentMessageIndex]);
+  }
+
+  console.log("Customer Service floating with typing & erasing animation initialized");
+});
 
 
 // ======= Inline SVG =======

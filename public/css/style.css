@@ -1208,38 +1208,111 @@ h6 {
   font-size: 13.5px;
 }
 
-#back-to-top {
+/* Customer Service Floating */
+.cs-floating {
   position: fixed;
-  bottom: 0px;
+  bottom: 20px;
   right: 20px;
-  visibility: hidden;
-  opacity: 0;
+  display: flex;
+  align-items: center;
   background-color: var(--bs-primary);
   color: white;
-  border: none;
-  border-radius: 50%;
-  padding: 10px;
-  cursor: pointer;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
   z-index: 1000;
+  max-width: 200px;
+}
+
+.cs-floating:hover {
+  background-color: var(--bs-primary-hover);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.cs-img {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  border: 2px solid white;
 }
-#back-to-top i {
-  font-size: 24px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+
+.cs-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-#back-to-top.show {
-  bottom: 20px;
-  opacity: 1;
-  visibility: visible;
+
+.cs-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 2px;
+  transition: all 0.3s ease;
+  position: relative;
+  min-height: 1.2em;
+}
+
+.cs-text::after {
+  content: '|';
+  animation: blink 1s infinite;
+  color: white;
+  font-weight: 400;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.cs-text.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid transparent;
+}
+
+.cs-subtitle {
+  font-size: 11px;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .cs-floating {
+    padding: 8px 12px;
+    max-width: 180px;
+  }
+
+  .cs-img {
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+  }
+
+  .cs-text {
+    font-size: 13px;
+  }
+
+  .cs-subtitle {
+    font-size: 10px;
+  }
 }
 
 /* Custom Dropdown Styling - Override Bootstrap */

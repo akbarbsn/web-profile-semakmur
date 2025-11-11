@@ -4,15 +4,16 @@
         <!-- Start Logo-->
         <a class="navbar-brand w-auto" href="{{ route('welcome') }}">
             <!-- If you use a text logo, uncomment this if it is commented-->
-            <strong style="font-size: 1.5rem; color: inherit;">Semakmur</strong>
+            <!-- <strong style="font-size: 1.5rem; color: inherit;">Semakmur</strong> -->
 
             <!-- If you plan to use an image logo, uncomment this if it is commented-->
 
-            <!-- logo dark--><img class="logo dark img-fluid d-none" src="{{ asset('images/logo-dark.svg') }}"
-                alt="Semakmur Logo">
+            <!-- logo dark--><img class="logo dark img-fluid"
+                src="{{ asset('images/semakmur/logo/logo semakmur V1.png') }}" alt="Semakmur Logo" style="height: 40px;">
 
-            <!-- logo light--><img class="logo light img-fluid d-none" src="{{ asset('images/logo-light.svg') }}"
-                alt="Semakmur Logo">
+            <!-- logo light--><img class="logo light img-fluid"
+                src="{{ asset('images/semakmur/logo/logo semakmur V1.png') }}" alt="Semakmur Logo"
+                style="height: 40px;">
 
         </a>
         <!-- End Logo-->
@@ -29,12 +30,14 @@
 
                     <!-- If you plan to use an image logo, uncomment this if it is commented-->
                     <a class="logo-link" id="fbs__net-navbarsLabel" href="{{ route('welcome') }}">
-                        <strong style="font-size: 1.5rem; color: inherit;">Semakmur</strong>
-                        <!-- logo dark--><img class="logo dark img-fluid d-none"
-                            src="{{ asset('images/logo-dark.svg') }}" alt="Semakmur Logo">
+                        <!-- <strong style="font-size: 1.5rem; color: inherit;">Semakmur</strong> -->
+                        <!-- logo dark--><img class="logo dark img-fluid"
+                            src="{{ asset('images/semakmur/logo/logo semakmur V1.png') }}" alt="Semakmur Logo"
+                            style="height: 40px;">
 
-                        <!-- logo light--><img class="logo light img-fluid d-none"
-                            src="{{ asset('images/logo-light.svg') }}" alt="Semakmur Logo">
+                        <!-- logo light--><img class="logo light img-fluid"
+                            src="{{ asset('images/semakmur/logo/logo semakmur V1.png') }}" alt="Semakmur Logo"
+                            style="height: 40px;">
                     </a>
 
                 </div>

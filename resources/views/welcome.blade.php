@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Nova - Innovative Fintech Solutions')
+@section('title', 'Semakmur - Menghubungkan Produk Indonesia dengan Dunia')
 
 @section('content')
 

@@ -18,6 +18,19 @@
                 <h3 class="mb-3">Tentang Semakmur</h3>
                 <p class="mb-4">Platform marketplace inovatif yang menghubungkan produk UMKM Indonesia dengan pasar
                     global. Didukung kolaborasi PT. Semakmur Trading dan DPP GPEI.</p>
+
+                <!-- App Download Section -->
+                <div class="footer-app-download mb-3">
+                    <h6 class="mb-2">Download Aplikasi</h6>
+                    <div class="app-icons d-flex gap-2">
+                        <a href="#" class="app-icon-link" title="Download di Play Store">
+                            <i class="bi bi-google-play" style="color: white;"></i>
+                        </a>
+                        <a href="#" class="app-icon-link" title="Download di App Store">
+                            <i class="bi bi-apple" style="color: white;"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="col-md-7">
                 <div class="row g-2">
@@ -49,6 +62,31 @@
                                 class="bi bi-envelope-fill me-3"></i><span>semakmurindonesia@gmail.com</span></a><a
                             class="d-flex mb-3" href="tel://+6282250006700"><i
                                 class="bi bi-telephone-fill me-3"></i><span>+62 822-5000-67</span></a>
+
+                        <!-- Social Media Section -->
+                        <div class="social-media mt-4">
+                            <h6 class="mb-3">Ikuti Kami</h6>
+                            <div class="social-links d-flex gap-2">
+                                <a href="#" class="social-link" title="Facebook">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="#" class="social-link" title="Instagram">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a href="#" class="social-link" title="Twitter">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                                <a href="#" class="social-link" title="LinkedIn">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-link" title="YouTube">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                                <a href="#" class="social-link" title="WhatsApp">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,9 +99,9 @@
                 </script> Semakmur - Marketplace Ekspor Indonesia.
                 All rights reserved. Menghubungkan Produk Indonesia dengan Dunia.
             </div>
-            <div
-                class="col-xl-4 justify-content-start justify-content-xl-end quick-links d-flex flex-column flex-xl-row text-center text-xl-start gap-1">
-                Powered by <strong>PT. Semakmur Trading</strong></div>
+            <div class="col-xl-4 d-flex justify-content-start justify-content-xl-end text-center text-xl-start">
+                Powered by &nbsp;<strong>PT. Semakmur Trading</strong>
+            </div>
         </div>
     </div>
 </footer>

@@ -75,12 +75,32 @@ h6 {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 50px 0;
   scroll-margin-top: 60px;
 }
 @media (max-width: 767.98px) {
   .section {
-    padding: 40px 0;
+    padding: 30px 0;
+  }
+}
+
+/* Reduce spacing specifically between hero and first content section */
+.hero__v6 + .section {
+  padding-top: 20px;
+}
+@media (max-width: 767.98px) {
+  .hero__v6 + .section {
+    padding-top: 15px;
+  }
+}
+
+/* Also reduce bottom padding of hero section */
+.hero__v6.section {
+  padding-bottom: 30px;
+}
+@media (max-width: 767.98px) {
+  .hero__v6.section {
+    padding-bottom: 20px;
   }
 }
 .section.first-section {
@@ -822,6 +842,61 @@ h6 {
   }
 }
 
+/* App Download Section */
+.app-download {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.app-download-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--inverse-color);
+  letter-spacing: 0.5px;
+}
+
+.app-store-links {
+  gap: 1rem;
+}
+
+.app-store-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--bs-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 0.875rem;
+  font-weight: 500;
+  min-width: 120px;
+}
+
+.app-store-link:hover {
+  background-color: var(--bs-primary-hover);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.app-store-link i {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 575.98px) {
+  .app-store-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .app-store-link {
+    min-width: 140px;
+  }
+}
+
 .features__v2 .icon {
   width: 60px;
   height: 60px;
@@ -1206,6 +1281,96 @@ h6 {
 }
 .footer .credits {
   font-size: 13.5px;
+}
+
+/* Footer App Icons */
+.footer-app-download h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--bs-heading-color);
+}
+
+/* Footer Social Media */
+.social-media h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--bs-heading-color);
+}
+
+.social-links {
+  gap: 0.5rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(var(--inverse-color-rgb), 0.1);
+  color: var(--inverse-color);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(var(--inverse-color-rgb), 0.2);
+}
+
+.social-link:hover {
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.social-link i {
+  font-size: 1.1rem;
+}
+
+.app-icons {
+  margin-top: 0.25rem;
+}
+
+.app-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: var(--bs-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.app-icon-link:hover {
+  background-color: var(--bs-primary-hover);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.app-icon-link i {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 575.98px) {
+  .footer .credits .col-xl-4 {
+    gap: 2rem !important;
+  }
+  
+  .social-links {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .social-link {
+    width: 34px;
+    height: 34px;
+  }
+  
+  .social-link i {
+    font-size: 1rem;
+  }
 }
 
 /* Customer Service Floating */

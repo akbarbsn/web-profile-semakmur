@@ -11,8 +11,8 @@
                         <p class="hero-description mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="200">Marketplace
                             inovatif hasil kolaborasi PT. Semakmur Trading dan GPEI yang membantu UMKM Indonesia
                             menembus pasar global dengan mudah, aman, dan efisien.</p>
-                        <div class="cta d-flex gap-2 mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="300"><a
-                                class="btn" href="#">Mulai Ekspor Sekarang</a><a class="btn btn-white-outline"
+                        <div class="cta d-flex gap-2 mb-3" data-aos="fade-up" data-aos-delay="300"><a class="btn"
+                                href="#">Mulai Ekspor Sekarang</a><a class="btn btn-white-outline"
                                 href="#">Pelajari Lebih Lanjut
                                 <svg class="lucide lucide-arrow-up-right" xmlns="http://www.w3.org/2000/svg"
                                     width="18" height="18" viewbox="0 0 24 24" fill="none"
@@ -21,6 +21,21 @@
                                     <path d="M7 7h10v10"></path>
                                     <path d="M7 17 17 7"></path>
                                 </svg></a></div>
+
+                        <!-- App Download Section -->
+                        <div class="app-download" data-aos="fade-up" data-aos-delay="400">
+                            <span class="app-download-title text-uppercase mb-2 d-block">Aplikasi Tersedia</span>
+                            <div class="app-store-links d-flex gap-3 align-items-center">
+                                <a href="#" class="app-store-link">
+                                    <i class="bi bi-google-play"></i>
+                                    <span>Play Store</span>
+                                </a>
+                                <a href="#" class="app-store-link">
+                                    <i class="bi bi-apple"></i>
+                                    <span>App Store</span>
+                                </a>
+                            </div>
+                        </div>
                         {{-- <div class="logos mb-4" data-aos="fade-up" data-aos-delay="400"><span
                                 class="logos-title text-uppercase mb-4 d-block">Dipercaya oleh perusahaan ekspor
                                 terkemuka</span>

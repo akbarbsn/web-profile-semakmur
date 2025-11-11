@@ -4,9 +4,9 @@
         <div class="row mb-4">
             <div class="col-md-6 col-lg-7 mx-auto text-center"><span class="subtitle text-uppercase mb-3"
                     data-aos="fade-up" data-aos-delay="0">FAQ</span>
-                <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Frequently Asked Questions</h2>
-                <p data-aos="fade-up" data-aos-delay="100">Utilize our tools to develop your concepts and bring your
-                    vision to life. Once complete, effortlessly share your creations.</p>
+                <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Pertanyaan yang Sering Diajukan</h2>
+                <p data-aos="fade-up" data-aos-delay="100">Temukan jawaban atas pertanyaan umum tentang layanan ekspor
+                    Semakmur dan bagaimana kami membantu UMKM Indonesia menembus pasar global.</p>
             </div>
         </div>
         <div class="row">
@@ -17,74 +17,79 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                    aria-controls="panelsStayOpen-collapseOne"> What services does your web agency
-                                    offer? </button>
+                                    aria-controls="panelsStayOpen-collapseOne"> Apa saja layanan yang ditawarkan
+                                    Semakmur?
+                                </button>
                             </h2>
                             <div class="accordion-collapse collapse show" id="panelsStayOpen-collapseOne">
-                                <div class="accordion-body">Our web agency offers a comprehensive range of services
-                                    including web design and development, e-commerce solutions, SEO optimization,
-                                    content creation, website maintenance, and digital marketing strategies. We tailor
-                                    our services to meet the unique needs of each client, ensuring a customized approach
-                                    to every project.</div>
+                                <div class="accordion-body">Semakmur menawarkan platform marketplace komprehensif untuk
+                                    UMKM Indonesia, termasuk akses pasar global, pendampingan ekspor, pelatihan bisnis
+                                    internasional, solusi logistik terintegrasi, dukungan sertifikasi produk, dan
+                                    konsultasi dengan ahli perdagangan dari DPP GPEI yang berpengalaman 60+ tahun.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseTwo"> How much does it cost to build a
-                                    website? </button>
+                                    aria-controls="panelsStayOpen-collapseTwo"> Bagaimana cara bergabung dengan platform
+                                    Semakmur?
+                                </button>
                             </h2>
                             <div class="accordion-collapse collapse" id="panelsStayOpen-collapseTwo">
-                                <div class="accordion-body">The cost of building a website can vary widely depending on
-                                    the complexity, features, and specific requirements of your project. We offer
-                                    several pricing packages to accommodate different budgets and needs. After an
-                                    initial consultation, we can provide a detailed quote based on your specific goals
-                                    and objectives.</div>
+                                <div class="accordion-body">Untuk bergabung dengan Semakmur, Anda dapat mendaftar
+                                    melalui platform kami dengan menyediakan informasi dasar bisnis Anda. Setelah
+                                    verifikasi, Anda akan mendapat akses penuh ke fitur marketplace dan dapat mulai
+                                    mengupload produk. Tim kami akan memberikan panduan lengkap dan pendampingan untuk
+                                    mempersiapkan ekspor produk Anda.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseThree"> How long does it take to design and
-                                    develop a website? </button>
+                                    aria-controls="panelsStayOpen-collapseThree"> Produk apa saja yang bisa dijual
+                                    melalui Semakmur?
+                                </button>
                             </h2>
                             <div class="accordion-collapse collapse" id="panelsStayOpen-collapseThree">
-                                <div class="accordion-body">The timeline for designing and developing a website depends
-                                    on the project&apos;s complexity and scope. Typically, a standard business website
-                                    takes about 4-6 weeks to complete, while more complex projects like e-commerce sites
-                                    or custom applications may take longer. We work closely with our clients to
-                                    establish a realistic timeline and keep you informed throughout the process.</div>
+                                <div class="accordion-body">Semakmur berfokus pada produk unggulan Indonesia seperti
+                                    rempah-rempah, hasil bumi, produk herbal, tekstil, kerajinan tangan, dan produk
+                                    kreatif lainnya. Kami menerima produk UMKM yang memiliki potensi ekspor dan memenuhi
+                                    standar kualitas internasional. Tim kami akan membantu mengevaluasi dan
+                                    mempersiapkan produk Anda agar siap dipasarkan secara global.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseFour"> Will my website be mobile-friendly?
+                                    aria-controls="panelsStayOpen-collapseFour"> Bagaimana Semakmur membantu proses
+                                    ekspor?
                                 </button>
                             </h2>
                             <div class="accordion-collapse collapse" id="panelsStayOpen-collapseFour">
-                                <div class="accordion-body">Absolutely! All the websites we design and develop are fully
-                                    responsive, meaning they are optimized to work seamlessly across all devices,
-                                    including desktops, tablets, and smartphones. Ensuring a great user experience on
-                                    mobile devices is a top priority in our development process.</div>
+                                <div class="accordion-body">Semakmur menyediakan dukungan komprehensif mulai dari
+                                    persiapan dokumen ekspor, sertifikasi produk, hingga solusi logistik internasional.
+                                    Kami bermitra dengan DPP GPEI yang memiliki jaringan global dan pengalaman 60+
+                                    tahun. Tim ahli kami akan membimbing Anda dalam memahami regulasi perdagangan
+                                    internasional dan mempersiapkan produk sesuai standar pasar tujuan.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseFive"> Do you provide ongoing support and
-                                    maintenance for websites? </button>
+                                    aria-controls="panelsStayOpen-collapseFive"> Apakah ada biaya untuk menggunakan
+                                    platform Semakmur?
+                                </button>
                             </h2>
                             <div class="accordion-collapse collapse" id="panelsStayOpen-collapseFive">
-                                <div class="accordion-body">Yes, we offer ongoing support and maintenance services to
-                                    ensure your website remains up-to-date, secure, and functioning smoothly. Our
-                                    maintenance packages can include regular updates, security monitoring, backups, and
-                                    technical support to address any issues that may arise. We&apos;re here to help you
-                                    keep your website running efficiently long after it&apos;s launched.</div>
+                                <div class="accordion-body">Semakmur menawarkan berbagai paket layanan yang disesuaikan
+                                    dengan kebutuhan UMKM. Kami menyediakan konsultasi awal gratis untuk mengevaluasi
+                                    potensi ekspor produk Anda. Untuk layanan lengkap termasuk pendampingan ekspor,
+                                    sertifikasi, dan akses platform, kami memiliki paket berlangganan yang terjangkau.
+                                    Hubungi tim kami untuk mendiskusikan paket yang sesuai dengan bisnis Anda.</div>
                             </div>
                         </div>
                     </div>

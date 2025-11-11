@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-6 text-center mx-auto"><span class="subtitle text-uppercase mb-3" data-aos="fade-up"
-                    data-aos-delay="0">How it works</span>
-                <h2 data-aos="fade-up" data-aos-delay="100">How It Works</h2>
-                <p data-aos="fade-up" data-aos-delay="200">Our platform is designed to make managing your finances
-                    simple and efficient. Follow these easy steps to get started: </p>
+                    data-aos-delay="0">Cara Kerja</span>
+                <h2 data-aos="fade-up" data-aos-delay="100">Bagaimana Semakmur Bekerja</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Platform kami dirancang untuk memudahkan UMKM Indonesia
+                    menembus pasar global. Ikuti langkah-langkah sederhana berikut untuk memulai ekspor: </p>
             </div>
         </div>
         <div class="row g-md-5">
@@ -17,9 +17,9 @@
                             src="{{ asset('images/arch-line.svg') }}" alt="Step connector"></div><span
                         class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">1</span>
                     <div>
-                        <h3 class="fs-5 mb-4">Sign Up</h3>
-                        <p>Visit our website or download our app to sign up. Provide basic information to set up your
-                            secure account.</p>
+                        <h3 class="fs-5 mb-4">Daftar & Verifikasi</h3>
+                        <p>Daftarkan bisnis Anda di platform Semakmur dan dapatkan verifikasi untuk akses penuh ke fitur
+                            ekspor.</p>
                     </div>
                 </div>
             </div>
@@ -29,8 +29,9 @@
                     <div data-aos="fade-right" data-aos-delay="1100"><img class="arch-line reverse"
                             src="{{ asset('images/arch-line-reverse.svg') }}" alt="Step connector"></div><span
                         class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">2</span>
-                    <h3 class="fs-5 mb-4">Set Up Your Profile</h3>
-                    <p>Add your personal or business details to tailor the platform to your specific needs.</p>
+                    <h3 class="fs-5 mb-4">Upload Produk Unggulan</h3>
+                    <p>Tambahkan produk terbaik Anda dengan foto berkualitas tinggi dan deskripsi lengkap untuk menarik
+                        pembeli global.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1200">
@@ -38,9 +39,9 @@
                     <div data-aos="fade-right" data-aos-delay="1700"><img class="arch-line"
                             src="{{ asset('images/arch-line.svg') }}" alt="Step connector"></div><span
                         class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">3</span>
-                    <h3 class="fs-5 mb-4">Explore Features</h3>
-                    <p>Access your dashboard for a summary of your finances: balances, recent transactions, and
-                        insights.</p>
+                    <h3 class="fs-5 mb-4">Dapatkan Pendampingan Ekspor</h3>
+                    <p>Tim ahli GPEI akan membantu Anda mempersiapkan dokumen ekspor, sertifikasi, dan strategi
+                        pemasaran internasional.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1800">
@@ -48,8 +49,9 @@
                     class="step-card last text-center h-100 d-flex flex-column justify-content-start position-relative">
                     <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">4</span>
                     <div>
-                        <h3 class="fs-5 mb-4">Invest and Grow</h3>
-                        <p>Discover a variety of investment opportunities tailored to your financial goals.</p>
+                        <h3 class="fs-5 mb-4">Jual ke Pasar Global</h3>
+                        <p>Mulai menjual produk Indonesia ke pembeli internasional dan kembangkan bisnis ekspor Anda
+                            bersama kami.</p>
                     </div>
                 </div>
             </div>

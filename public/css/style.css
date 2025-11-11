@@ -20,6 +20,13 @@
   --dropdown-hover-bg: #f7f7f7;
   --nav-inverse: #000000;
   --nav-inverse-alt: #ffffff;
+
+  /* Override Bootstrap dropdown CSS variables */
+  --bs-dropdown-link-active-bg: #f8f9fa;
+  --bs-dropdown-link-active-color: #495057;
+  --bs-dropdown-link-hover-bg: #e9ecef;
+  --bs-dropdown-link-hover-color: #495057;
+  --bs-nav-link-hover-color: #495057;
 }
 
 body {
@@ -1233,4 +1240,77 @@ h6 {
   bottom: 20px;
   opacity: 1;
   visibility: visible;
+}
+
+/* Custom Dropdown Styling - Override Bootstrap */
+/* Override Bootstrap CSS Variables */
+.navbar-nav .dropdown-menu {
+  --bs-dropdown-link-active-bg: #f8f9fa;
+  --bs-dropdown-link-active-color: #495057;
+  --bs-dropdown-link-hover-bg: #e9ecef;
+  --bs-dropdown-link-hover-color: #495057;
+}
+
+.navbar-nav .nav-item.dropdown {
+  --bs-nav-link-hover-color: #495057;
+  --bs-dropdown-link-active-bg: #f8f9fa;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-toggle:focus,
+.navbar-nav .nav-item.dropdown .dropdown-toggle:active,
+.navbar-nav .nav-item.dropdown .dropdown-toggle.show,
+.navbar-nav .nav-item.dropdown .dropdown-toggle[aria-expanded="true"] {
+  background-color: #f8f9fa !important;
+  color: #495057 !important;
+  border-color: transparent !important;
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-toggle:hover {
+  background-color: #e9ecef !important;
+  color: #495057 !important;
+}
+
+/* More specific selectors with !important */
+.fbs__net-navbar .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle:focus,
+.fbs__net-navbar .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle:active,
+.fbs__net-navbar .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle.show,
+.fbs__net-navbar .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle[aria-expanded="true"],
+.fbs__net-navbar .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle[data-bs-toggle="dropdown"]:focus,
+.fbs__net-navbar .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle[data-bs-toggle="dropdown"]:active {
+  background-color: #f8f9fa !important;
+  background: #f8f9fa !important;
+  color: #495057 !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.fbs__net-navbar .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle:hover {
+  background-color: #e9ecef !important;
+  background: #e9ecef !important;
+  color: #495057 !important;
+}
+
+/* Dropdown Menu Items */
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item.active {
+  background-color: #f8f9fa !important;
+  color: #495057 !important;
+}
+
+/* Override any primary color on dropdown */
+.navbar-nav .dropdown-toggle {
+  background-color: transparent !important;
+}
+
+/* Force override Bootstrap primary colors */
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link.active {
+  background-color: transparent !important;
+}
+
+.navbar-nav .dropdown-toggle:not(.btn) {
+  background-color: transparent !important;
 }

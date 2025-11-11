@@ -51,9 +51,22 @@
                     <li class="nav-item"><a class="nav-link scroll-link active" aria-current="page"
                             href="#home">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link scroll-link" href="#about">Tentang Kami</a></li>
-                    <li class="nav-item"><a class="nav-link scroll-link" href="#features">Layanan</a></li>
-                    <li class="nav-item"><a class="nav-link scroll-link" href="#how-it-works">Cara Kerja</a></li>
-                    <li class="nav-item"><a class="nav-link scroll-link" href="#pricing">Paket</a></li>
+
+                    <!-- Layanan Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="layananDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Layanan
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="layananDropdown">
+                            <li><a class="dropdown-item scroll-link" href="#features">Fitur Utama</a></li>
+                            <li><a class="dropdown-item scroll-link" href="#packages">Paket Ekspor</a></li>
+                            <li><a class="dropdown-item scroll-link" href="#how-it-works">Cara Kerja</a></li>
+                            <li><a class="dropdown-item scroll-link" href="#export-process">Proses Pendampingan</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link scroll-link" href="#faq">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link scroll-link" href="#contact">Kontak</a></li>
                 </ul>
 
@@ -76,9 +89,9 @@
                         <line x1="15" x2="3" y1="12" y2="12"></line>
                         <line x1="17" x2="3" y1="18" y2="18"></line>
                     </svg>
-                    <svg class="fbs__net-icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
+                    <svg class="fbs__net-icon-close" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <path d="M18 6 6 18"></path>
                         <path d="m6 6 12 12"></path>
                     </svg>

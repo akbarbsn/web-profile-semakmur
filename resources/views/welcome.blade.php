@@ -10,9 +10,11 @@
 
     @include('sections.features')
 
-    @include('sections.pricing')
+    @include('sections.packages')
 
     @include('sections.how-it-works')
+
+    @include('sections.export-process')
 
     @include('sections.stats')
 

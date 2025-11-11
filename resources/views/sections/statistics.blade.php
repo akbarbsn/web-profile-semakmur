@@ -13,25 +13,25 @@
                         data-aos-delay="100">
                         <div class="stat-item">
                             <h3 class="fs-1 fw-bold"><span class="purecounter" data-purecounter-start="0"
-                                    data-purecounter-end="10" data-purecounter-duration="2">0</span><span>K+</span></h3>
-                            <p class="mb-0">Customer Satisfaction</p>
+                                    data-purecounter-end="1961" data-purecounter-duration="2">0</span></h3>
+                            <p class="mb-0">Tahun Berdirinya GPEI</p>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up"
                         data-aos-delay="200">
                         <div class="stat-item">
                             <h3 class="fs-1 fw-bold"> <span class="purecounter" data-purecounter-start="0"
-                                    data-purecounter-end="200" data-purecounter-duration="2">0</span><span>%+</span>
+                                    data-purecounter-end="60" data-purecounter-duration="2">0</span><span>+</span>
                             </h3>
-                            <p class="mb-0">Revenue Increase</p>
+                            <p class="mb-0">Tahun Pengalaman Ekspor</p>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up"
                         data-aos-delay="300">
                         <div class="stat-item">
                             <h3 class="fs-1 fw-bold"><span class="purecounter" data-purecounter-start="0"
-                                    data-purecounter-end="20" data-purecounter-duration="2">0</span><span>x</span></h3>
-                            <p class="mb-0">Business Growth</p>
+                                    data-purecounter-end="25" data-purecounter-duration="2">0</span><span>+</span></h3>
+                            <p class="mb-0">Negara Jaringan Global</p>
                         </div>
                     </div>
                 </div>

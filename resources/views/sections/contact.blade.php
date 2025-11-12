@@ -37,34 +37,50 @@
             </div>
             <div class="col-md-6">
                 <div class="form-wrapper" data-aos="fade-up" data-aos-delay="300">
-                    <form id="contactForm">
+                    <form id="contactForm" action="{{ route('contact.send') }}" method="POST">
+                        @csrf
                         <div class="row gap-3 mb-3">
                             <div class="col-md-12">
-                                <label class="mb-2" for="name">Name</label>
-                                <input class="form-control" id="name" type="text" name="name" required="">
+                                <label class="mb-2" for="name">Nama Lengkap *</label>
+                                <input class="form-control" id="name" type="text" name="name" required>
                             </div>
                             <div class="col-md-12">
-                                <label class="mb-2" for="email">Email</label>
-                                <input class="form-control" id="email" type="email" name="email" required="">
+                                <label class="mb-2" for="email">Email *</label>
+                                <input class="form-control" id="email" type="email" name="email" required>
                             </div>
                         </div>
                         <div class="row gap-3 mb-3">
                             <div class="col-md-12">
                                 <label class="mb-2" for="subject">Subject</label>
-                                <input class="form-control" id="subject" type="text" name="subject">
+                                <input class="form-control" id="subject" type="text" name="subject"
+                                    placeholder="Konsultasi Ekspor, Kemitraan, dll">
                             </div>
                         </div>
                         <div class="row gap-3 gap-md-0 mb-3">
                             <div class="col-md-12">
-                                <label class="mb-2" for="message">Message</label>
-                                <textarea class="form-control" id="message" name="message" rows="5" required=""></textarea>
+                                <label class="mb-2" for="message">Pesan *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required
+                                    placeholder="Jelaskan kebutuhan atau pertanyaan Anda..."></textarea>
                             </div>
                         </div>
-                        <button class="btn btn-primary fw-semibold" type="submit">Send Message</button>
+                        <button class="btn btn-primary fw-semibold" type="submit" id="submitBtn">
+                            <span class="btn-text">Kirim Pesan</span>
+                            <span class="spinner-border spinner-border-sm d-none" role="status"
+                                aria-hidden="true"></span>
+                        </button>
                     </form>
-                    <div class="mt-3 d-none alert alert-success" id="successMessage">Message sent successfully!</div>
-                    <div class="mt-3 d-none alert alert-danger" id="errorMessage">Message sending failed. Please try
-                        again later.</div>
+
+                    <!-- Success Message -->
+                    <div class="mt-3 d-none alert alert-success" id="successMessage">
+                        <i class="bi bi-check-circle-fill me-2"></i>
+                        <span id="successText">Pesan berhasil dikirim! Kami akan segera menghubungi Anda.</span>
+                    </div>
+
+                    <!-- Error Message -->
+                    <div class="mt-3 d-none alert alert-danger" id="errorMessage">
+                        <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                        <span id="errorText">Terjadi kesalahan. Silakan coba lagi atau hubungi kami langsung.</span>
+                    </div>
                 </div>
             </div>
         </div>

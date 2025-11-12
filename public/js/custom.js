@@ -592,3 +592,71 @@ const countdownInit = () => {
 };
 document.addEventListener('DOMContentLoaded', countdownInit);
 
+// ======= Contact Form =======
+document.addEventListener('DOMContentLoaded', function() {
+  const contactForm = document.getElementById('contactForm');
+  const submitBtn = document.getElementById('submitBtn');
+  const btnText = submitBtn.querySelector('.btn-text');
+  const spinner = submitBtn.querySelector('.spinner-border');
+  const successMessage = document.getElementById('successMessage');
+  const errorMessage = document.getElementById('errorMessage');
+  const successText = document.getElementById('successText');
+  const errorText = document.getElementById('errorText');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Show loading state
+      submitBtn.disabled = true;
+      btnText.textContent = 'Mengirim...';
+      spinner.classList.remove('d-none');
+
+      // Hide previous messages
+      successMessage.classList.add('d-none');
+      errorMessage.classList.add('d-none');
+
+      // Prepare form data
+      const formData = new FormData(contactForm);
+
+      // Send AJAX request
+      fetch(contactForm.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'X-Requested-With': 'XMLHttpRequest'
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          // Success
+          successText.textContent = data.message;
+          successMessage.classList.remove('d-none');
+          contactForm.reset(); // Reset form
+
+          // Auto hide success message after 5 seconds
+          setTimeout(() => {
+            successMessage.classList.add('d-none');
+          }, 5000);
+        } else {
+          // Error
+          errorText.textContent = data.message || 'Terjadi kesalahan. Silakan coba lagi.';
+          errorMessage.classList.remove('d-none');
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        errorText.textContent = 'Terjadi kesalahan jaringan. Silakan coba lagi.';
+        errorMessage.classList.remove('d-none');
+      })
+      .finally(() => {
+        // Reset button state
+        submitBtn.disabled = false;
+        btnText.textContent = 'Kirim Pesan';
+        spinner.classList.add('d-none');
+      });
+    });
+  }
+});
+

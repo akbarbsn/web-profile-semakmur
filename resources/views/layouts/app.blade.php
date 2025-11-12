@@ -68,8 +68,7 @@ License: https://freebootstrap.net/license
 
     <!-- ======= Customer Service Floating =======-->
     <a href="https://wa.me/62822500067" target="_blank" id="cs-floating" class="cs-floating">
-        <img src="{{ asset('images/semakmur/foto sima/sima-customer-service.png') }}" alt="Customer Service"
-            class="cs-img">
+        <img src="{{ asset('images/semakmur/foto sima/sima-senang.png') }}" alt="Customer Service" class="cs-img">
         <div class="cs-content">
             <div class="cs-text" id="cs-text">Butuh Bantuan?</div>
             <div class="cs-subtitle">Chat dengan kami</div>

@@ -660,3 +660,78 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+// ======= Articles Slider =======
+document.addEventListener('DOMContentLoaded', function() {
+  // Check if Swiper is loaded and articles slider exists
+  if (typeof Swiper !== 'undefined' && document.querySelector('.articles-swiper')) {
+    const articlesSwiper = new Swiper('.articles-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      pagination: {
+        el: '.articles-swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: '.articles-swiper-button-next',
+        prevEl: '.articles-swiper-button-prev',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        }
+      },
+      effect: 'slide',
+      speed: 600,
+      watchOverflow: true,
+      observer: true,
+      observeParents: true,
+      // Enhanced touch settings for better mobile experience
+      touchRatio: 1,
+      touchAngle: 45,
+      grabCursor: true,
+      // Accessibility
+      a11y: {
+        prevSlideMessage: 'Previous slide',
+        nextSlideMessage: 'Next slide',
+        paginationBulletMessage: 'Go to slide {{index}}',
+      },
+    });
+
+    // Pause autoplay on hover
+    const swiperContainer = document.querySelector('.articles-swiper');
+    if (swiperContainer) {
+      swiperContainer.addEventListener('mouseenter', () => {
+        articlesSwiper.autoplay.stop();
+      });
+
+      swiperContainer.addEventListener('mouseleave', () => {
+        articlesSwiper.autoplay.start();
+      });
+    }
+
+    console.log('Articles slider initialized successfully');
+  } else {
+    console.warn('Swiper not found or articles slider container not available');
+  }
+});
+

@@ -10,6 +10,8 @@
 
     @include('sections.features')
 
+    @include('sections.articles')
+
     @include('sections.packages')
 
     @include('sections.how-it-works')

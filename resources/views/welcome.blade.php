@@ -10,7 +10,7 @@
 
     @include('sections.features')
 
-    @include('sections.articles')
+    {{-- @include('sections.articles') --}}
 
     @include('sections.packages')
 

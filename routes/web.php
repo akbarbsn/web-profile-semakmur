@@ -10,11 +10,11 @@ Route::get('/', function () {
 // Contact Form Route
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 
-// Articles Routes
-Route::get('/articles', function () {
-    return view('articles.index');
-})->name('articles.index');
+// // Articles Routes
+// Route::get('/articles', function () {
+//     return view('articles.index');
+// })->name('articles.index');
 
-Route::get('/article/{slug}', function ($slug) {
-    return view('articles.show', compact('slug'));
-})->name('article.show');
+// Route::get('/article/{slug}', function ($slug) {
+//     return view('articles.show', compact('slug'));
+// })->name('article.show');

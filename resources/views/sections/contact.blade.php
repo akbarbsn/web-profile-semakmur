@@ -10,7 +10,7 @@
 
                 <!-- Maskot Contact -->
                 <div class="maskot-contact mt-4" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="{{ asset('images/semakmur/foto sima/sima-customer-service.png') }}" alt="Sima Contact"
+                    <img src="{{ asset('images/semakmur/foto sima/sima-senang.png') }}" alt="Sima Contact"
                         style="width: 80px; height: auto; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));">
                 </div>
             </div>

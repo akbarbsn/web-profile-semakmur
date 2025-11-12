@@ -41,7 +41,7 @@
             </div>
             <div class="col-md-6">
                 <div class="img-wrap position-relative"><img class="img-fluid rounded-4"
-                        src="{{ asset('images/semakmur/foto content/gambar-3.jpg') }}" alt="About us image"
+                        src="{{ asset('images/semakmur/foto content/gambar-4.jpg') }}" alt="About us image"
                         data-aos="fade-up" data-aos-delay="0">
                     <div class="mission-statement p-4 rounded-4 d-flex gap-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="mission-icon text-center rounded-circle"><i class="bi bi-globe fs-4"></i></div>

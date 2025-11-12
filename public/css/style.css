@@ -2436,9 +2436,41 @@ h6 {
   }
 
   /* How it Works Mobile (if exists) */
+  /* How it Works Mobile */
   .how-it-works .col-md-6,
   .how-it-works .col-lg-6 {
     margin-bottom: 2rem;
+  }
+
+  .howitworks__v1 .col-md-6.col-lg-3 {
+    margin-bottom: 2.5rem;
+  }
+
+  .howitworks__v1 .step-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(36, 132, 246, 0.1);
+  }
+
+  .howitworks__v1 .step-number {
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .howitworks__v1 .arch-line {
+    display: none;
+  }
+
+  .howitworks__v1 .maskot-step {
+    margin-bottom: 1rem;
+  }
+
+  .howitworks__v1 .maskot-step img {
+    width: 50px !important;
   }
 
   .how-it-works .step-number {
@@ -2446,10 +2478,28 @@ h6 {
     margin-bottom: 1rem;
   }
 
-  /* Export Process Mobile (if exists) */
+  /* Export Process Mobile */
   .export-process .col-md-4,
-  .export-process .col-lg-4 {
+  .export-process .col-lg-4,
+  .export-process .col-md-6 {
     margin-bottom: 2rem;
+  }
+
+  .export-process .process-item {
+    padding: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .export-process .process-number {
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    flex-shrink: 0;
+  }
+
+  .export-process .d-flex.gap-3 {
+    gap: 1rem !important;
   }
 
   .export-process .process-step {
@@ -2620,9 +2670,231 @@ h6 {
     font-size: 0.9rem;
   }
 
-  .article-card {
-    margin-bottom: 1.5rem;
+/* Mobile Navigation Improvements */
+@media (max-width: 991.98px) {
+  .fbs__net-navbar .offcanvas {
+    width: 85% !important;
   }
+
+  .fbs__net-navbar .offcanvas-body {
+    padding: 1.5rem;
+  }
+
+  .fbs__net-navbar .navbar-nav {
+    padding-left: 0 !important;
+  }
+
+  .fbs__net-navbar .nav-link {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .fbs__net-navbar .nav-link:last-child {
+    border-bottom: none;
+  }
+
+  .fbs__net-navbar .navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+  }
+
+  .fbs__net-navbar .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .fbs__net-navbar .offcanvas-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .fbs__net-navbar .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .fbs__net-navbar .dropdown-item {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+/* Header responsive logo sizing */
+@media (max-width: 767.98px) {
+  .navbar-brand img {
+    height: 35px !important;
+  }
+
+  .offcanvas-header-logo img {
+    height: 35px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand img {
+    height: 30px !important;
+  }
+
+  .offcanvas-header-logo img {
+    height: 30px !important;
+  }
+
+  .fbs__net-navbar .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* Footer Mobile Improvements */
+@media (max-width: 767.98px) {
+  .footer .col-md-7,
+  .footer .col-md-5,
+  .footer .col-md-4,
+  .footer .col-md-2 {
+    margin-bottom: 2rem;
+  }
+
+  .footer form.d-flex {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .footer .btn {
+    width: 100%;
+  }
+
+  .footer .app-icons {
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .footer .app-icon-link {
+    font-size: 1.5rem;
+  }
+
+  .footer ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer .social-icons {
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .footer .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer h2,
+  .footer h3 {
+    font-size: 1.25rem;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Global Mobile Improvements - End of Mobile Section */
+@media (max-width: 767.98px) {
+  /* Improve scroll behavior on mobile */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Better touch target sizes */
+  a, button, .btn, .nav-link {
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Better spacing for interactive elements */
+  .btn + .btn {
+    margin-top: 0.75rem;
+  }
+
+  /* Improve readability */
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* Better form elements */
+  input, textarea, select {
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+
+  /* Improve section visual separation */
+  .section:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  /* Better image handling */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Improve list styling */
+  ul, ol {
+    padding-left: 1.25rem;
+  }
+
+  /* Better blockquote styling */
+  blockquote {
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  /* Improve table responsiveness */
+  .table-responsive {
+    border: none;
+  }
+
+  /* Better video embedding */
+  .embed-responsive {
+    margin-bottom: 1rem;
+  }
+
+  /* Improve carousel controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 44px;
+  }
+
+  /* Better tooltip and popover sizing */
+  .tooltip, .popover {
+    font-size: 0.875rem;
+  }
+
+  /* Improve accordion styling */
+  .accordion .card {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Better progress bar visibility */
+  .progress {
+    height: 1rem;
+  }
+}
 
   /* Articles Slider Mobile */
   .articles-swiper {
